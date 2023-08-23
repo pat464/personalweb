@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0">
+    <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="script.js">
+        <script src="https://kit.fontawesome.com/c11825415b.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" type="image/jpg" href="Images/patrick-logo-67637D3277-seeklogo.com.png"/>
+        </head>
+        <body>
+            <div id="header">
+                <div class="container">  
+                    <nav>
+                        <img src="Images/patrick-logo-67637D3277-seeklogo.com.png" class="contact">
+                        <ul id="sidemenu">
+                            <li><a href="#self">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#Projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                        </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    </nav>
+                    <div class="header-text">
+                        <p><span>Patrick</span> Muthengi, <b>Network Engineer and Cyber Security Professional</b> based in, Nairobi, Kenya.</p>
+                        <h1>.</h1>
+                    </div>
+                </div>
+            </div>
+            <!------------about--------->
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="Images/about.jpg">
+                        </div>
+                        <div class="about-col-2">
+                            <h1 class="sub-title">About Me</h1>
+                            <p1>I am an IT Professional with a Bachelor’s Degree in Information Technology passionate about Networking and Cybersecurity. As a fast learner, I am open to learning new technologies.</p1>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                            <p class="tab-links active-link" onclick="opentab('Certification')"> Professional Certifications</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Network Adminsistration</span><br></li>
+                                    <li><span>IT Support</span><br></li>
+                                    <li><span>Soc Analyst</span><br></li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Self Employeed</span><br></li>
+                                    <li><span>ICT Authority (ICTA)</span><br></li>
+                                    <li><span>Ministry of Education</span><br></li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2015-2019</span><br><span>Kirinyaga Univesity</span></li>
+                                    <li><span>2011-2014</span><br><span>Kyuso Boys' Secondary School</span></li>
+                                </ul>
+                            </div>
+                        <div class="tab-contents" id="Certification">
+                                <ul>
+                                    <li><span><a href="https://www.credly.com/badges/4a9f19bc-e378-4f73-8849-924c55853d6b/linked_in_profile">Cisco Certified Network Associate (CCNA)</a></span><br/li>
+                                    <li><span><a href="https://www.credly.com/badges/26ae0868-f4f9-4450-aaa3-e86688eadcd8/linked_in_profile">CyberOps Associate</a></span><br/li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <!---services--->
+                <div id="services">
+                    <div class="container">
+                        <h1 class="sub-title">My Services</h1>
+                        <div class="services-list">
+                            <div>
+                                <div class="box">
+                                
+                                <h2>Network Design and Security</h2>
+                                <p>Network design encompasses the strategic planning and arrangement of digital communication pathways, 
+                                    devices, and protocols to optimize data flow, accessibility, and efficiency. It involves configuring components like routers, 
+                                    switches, and servers to ensure reliable connectivity and resource allocation. Network security involves implementing measures 
+                                    to safeguard these systems from unauthorized access, data breaches, and cyber threats. This includes firewalls, encryption, authentication,
+                                     and intrusion detection systems, aiming to maintain data confidentiality, integrity, and availability. Effective network design and security
+                                      jointly create a robust and protected infrastructure, critical for modern digital operations and information exchange.</p>
+                                      <a href="javascript:void();" class="readmore-btn">Read More</a>
+                                      </div>
+                            </div>
+                            <div>
+                                <div class="box">
+                                    
+                                <h2>Technical Writing</h2>
+                                <p>Technical writing is a precise and clear communication practice focused on conveying complex information, 
+                                    procedures, or concepts in a user-friendly manner. It involves crafting documentation, guides, manuals, 
+                                    or reports that cater to a specific audience, often in fields like technology, science, or engineering. 
+                                    Through organized structure, jargon clarification, and visual aids, technical writing facilitates comprehension,
+                                    enabling users to effectively utilize products, understand processes, or troubleshoot issues. Its goal is to bridge the gap
+                                     between technical expertise and user understanding, enhancing usability and knowledge transfer.</p>
+                                     <a href="javascript:void();" class="readmore-btn">Read More</a>
+                                     </div>
+                            </div>
+                            <div>
+                                <div class="box">
+                                    
+                                <h2>Technical Consulting</h2>
+                                <p>Technical consultancy in cybersecurity involves expert guidance to assess, design, and implement robust protective measures for digital systems.
+                                    Consultants analyze vulnerabilities, recommend tailored solutions, and assist in configuring firewalls, encryption, and intrusion detection systems. 
+                                    They guide in compliance with industry standards and regulations, conduct risk assessments, and develop incident response plans. Collaborating with organizations, 
+                                    technical cybersecurity consultants ensure proactive threat mitigation, enhancing data confidentiality, integrity, and availability. Through their specialized knowledge,
+                                     they fortify digital infrastructure against cyberattacks, promoting a secure online environment for businesses and users.</p>
+                                     <a href="javascript:void();" class="readmore-btn">Read More</a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--------------portfolio----------->
+                <div id="Projects">
+                    <div class="container">
+                        <h1 class="sub-title">My Projects</h1>
+                        <div class="work-list">
+                            <div class="work">
+                                <img src="Images/port security.png">
+                                <div class="layer">
+                                    <h3>Implementing Port Security</h3>
+                                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="Images/Implementing Standard ACL.png">
+                                <div class="layer">
+                                    <h3>Implementing Standard ACL</h3>
+                                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="Images/Implement single area OSPF.png">
+                                <div class="layer">
+                                <h3>Configure Single Area OSPF</h3>
+                                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="load-more">Load More</div>
+                    </div>
+                </div>
+                <!------------contact form----------->
+                <div id="contact">
+                    <div class="container">
+                         <div class="row">
+                            <div class="contact-left">
+                                <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>firstworldconsultancy.co.ke</p>
+                                <p><i class="fa-solid fa-phone-volume"></i>+254792036996</p>
+                                <div class="social-icons">
+                                  <a href="https://facebook.com/PatrickMuthengi"><i class="fa-brands fa-facebook"></i></a>
+                                  <a href="https://twitter.com/MuthengiPatrick"><i class="fa-brands fa-twitter-square"></i></a>
+                                  <a href="https://www.fa-instagram.com/in/PatrickMuthengi"><i class="fa-brands fa-instagram"></i></a>
+                                  <a href="https://www.linkedin.com/in/patrick-muthengi-9a8b89112/"><i class="fa-brands fa-linkedin"></i></a>  
+                                </div>
+                                <div>
+                                <a href="Images/Patrick CV1.docx" download class="btn btn2">Download CV</a>
+                                </div>
+                            </div>
+                            <div class="contact-right">
+                    <p13 class="cnt">Enter your information below, I'll respond ASAP</p13>
+                                <form action="https://formspree.io/f/mvojapjb" method="post">
+                                   <input type="text" name="Name" placeholder="Enter your name" required> 
+                                   <input type="email" name="Email" placeholder="Enter your email" required>
+                                   <textarea name="" id="Message"  rows="4" placeholder="Enter your Message"></textarea>
+                                   <button type="submit" class="btn btn2">Submit</button>
+                                </form>
+                                <span id="msg"></span>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <footer>
+        <p class="fbtm">Copyright&copy; <script>document.write(new Date().getFullYear());</script> | Personal Portfolio | All Rights Reserved</p>
+                    </footer>
+                    <!-----Scroll button-->
+                    <button type="button" id="scrollTop">&uarr;</button>
+                    <!-----End Scroll button-->
+                    <script type="text/javascript" src="script.js"></script>
+                <script>
+                    var tablinks = document.getElementsByClassName("tab-links");
+                    var tabcontents = document.getElementsByClassName("tab-contents");
+                    function opentab(tabname){
+                        for(tablink of tablinks){
+                            tablink.classList.remove("active-link");
+                        }
+                        for(tabcontent of tabcontents){
+                            tabcontent.classList.remove("active-tab");
+                        }
+                        event.currentTarget.classList.add("active-link");
+                        document.getElementById(tabname).classList.add("active-tab");
+                    }
+                    </script>
+                    <script>
+                        var sidemeu = document.getElementById("sidemenu");
+                        function openmenu(){
+                            sidemeu.style.right = "0";
+                        }
+                        function closemenu(){
+                            sidemeu.style.right = "-200px";
+                        }
+                    </script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+                    <script>
+                    $(".readmore-btn").on('click', function(){
+                        $(this).parent().toggleClass("showContent");
+                        //Shorthand if statement
+                        var replaceText = $(this).parent().hasClass("showContent") ? "Read Less" : "Read More";
+                        $(this).text(replaceText);
+                    });
+                    </script>
+            </body>
+            <html>
